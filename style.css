@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: beige;
+}
+
+p {
+  margin: 0.5em 0 0.5em 0;
+}
+
+/*Header*/
+
+header {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(143, 208, 245);
+  padding: 10px;
+}
+
+nav a:visited,
+nav a:link {
+  color: black;
+  text-decoration: none;
+}
+
+nav > ul {
+  display: inline;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+/*Footer*/
+
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(201, 99, 248);
+  padding: 10px;
+}
+footer > ul {
+  display: inline;
+  padding: 0;
+}
+footer a:visited,
+footer a:link {
+  color: black;
+  text-decoration: none;
+}
+footer > ul > li {
+  display: inline-block;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+/*Main Content Body*/
+.main-content {
+  padding: 5px;
+  margin-top: 2rem;
+
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+/*Home-Page Body*/
+.home-content {
+  height: 45rem;
+  background-color: white;
+  border-radius: 2.5rem;
+  padding: 1rem;
+}
+.home-image {
+  display: flex;
+}
+.home-image div {
+  width: 50%;
+  padding: 1rem;
+}
+.home-image div img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 3rem;
+}
+.home-image div article {
+  height: 50%;
+  background-color: peachpuff;
+  border-radius: 2rem;
+  padding: 1rem;
+}
